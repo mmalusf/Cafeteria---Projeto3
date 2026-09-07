@@ -1,0 +1,38 @@
+<?php
+    class Cliente{
+        //Atributos
+        private $IdCliente;
+        private $nome_cliente;
+        private $cpf;
+        private $endereco;
+
+        //Métodos de encapsulmento (getters e setters)
+        public function getIdCliente(){
+            return $this->IdCliente;
+        }
+        public function setIdCliente($idCliente){
+            $this->IdCliente = $idCliente;
+        }
+
+        public function getNome_Cliente(){
+            return $this->nome_cliente;
+        }
+        public function setNome_Cliente($nome_cliente){
+            $this->nome_cliente = $nome_cliente;
+        }
+
+        public function getCpf(){
+            return $this->cpf;
+        }
+        public function setCpf($cpf){
+            $this->cpf = $cpf;
+        }
+
+
+        public function getEndereco(){
+            return $this->endereco;
+        }
+        public function setEndereco($endereco){
+            $this->endereco = $endereco;
+        }
+    }
